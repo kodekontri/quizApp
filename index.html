@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Quiz System</title>
+  <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css" />
+</head>
+
+<body>
+  <div class="container">
+    <form action="./result.html">
+      <div class="card">
+        <div class="card-header bg-dark text-white">
+          <h1 class="text-center">Quiz System</h1>
+        </div>
+        <div class="card-body">
+          <h1 class="text-center my-4">&lt;<span id='sn'>1</span>&gt;</h1>
+          <p id="question-bar">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat,
+            amet.
+          </p>
+          <div id="options-bar">
+            <!-- option Here -->
+          </div>
+        </div>
+        <div class="card-footer text-right">
+          <button class="btn btn-dark" id="btn-prev">Prev</button>
+          <button class="btn btn-dark" id="btn-next">Next</button>
+          <button class="btn btn-success" id="btn-submit">Submit</button>
+        </div>
+      </div>
+    </form>
+  </div>
+  <script src="app.js"></script>
+</body>
+
+</html>
